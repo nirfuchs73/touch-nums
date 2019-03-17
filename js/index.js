@@ -56,17 +56,6 @@ function shuffleNums(nums) {
     return res;
 }
 
-// function shuffleNums() {
-//     var nums = [...gNums];
-//     var res = [];
-//     while (nums.length > 0) {
-//         var random = Math.floor(Math.random() * nums.length);
-//         var num = nums.splice(random, 1);
-//         res.push(num.pop() + 1);
-//     }
-//     return res;
-// }
-
 function startTime() {
     gGameInterval = setInterval(incrementTime, 10);
 }
